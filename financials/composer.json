@@ -1,0 +1,17 @@
+{
+    "name": "admin/financials",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Financials\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "\"finan\""
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "ramsey/uuid": "^4.7"
+    }
+}
